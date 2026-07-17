@@ -1,0 +1,15 @@
+{
+  "name": "Site Ops Console",
+  "short_name": "Site Ops",
+  "description": "Multi-site task management",
+  "start_url": "/siteops",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0F2A47",
+  "theme_color": "#0F2A47",
+  "icons": [
+    { "src": "/assets/siteops/frontend/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/siteops/frontend/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/siteops/frontend/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
