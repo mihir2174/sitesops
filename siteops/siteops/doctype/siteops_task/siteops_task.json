@@ -8,6 +8,7 @@
   "title",
   "status",
   "priority",
+  "deadline",
   "recurrence",
   "next_recur_date",
   "site",
@@ -45,6 +46,12 @@
    "label": "Priority",
    "options": "Low\nMedium\nHigh",
    "default": "Medium",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "deadline",
+   "fieldtype": "Date",
+   "label": "Deadline",
    "in_list_view": 1
   },
   {
