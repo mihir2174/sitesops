@@ -5,6 +5,13 @@ app_description = "multi sites task management system"
 app_email = "mihirchavda7777@gmail.com"
 app_license = "mit"
 
+
+doc_events = {
+    "SiteOps Task": {
+        "after_insert": "siteops.notifications.on_task_insert",
+        "on_update": "siteops.notifications.on_task_update",
+    },
+}
 # Apps
 # ------------------
 
