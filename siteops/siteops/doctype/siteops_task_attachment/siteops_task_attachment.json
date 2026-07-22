@@ -20,7 +20,7 @@
    "fieldname": "attachment_type",
    "fieldtype": "Select",
    "label": "Type",
-   "options": "file\nimage\naudio",
+   "options": "file\nimage\naudio\nvideo",
    "in_list_view": 1,
    "default": "file"
   },
